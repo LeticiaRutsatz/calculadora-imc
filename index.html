@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <section class="body">
+
+            <div  class="formulario">
+                <h1>Calcule seu IMC</h1><br>
+                <div>
+                    <label for="name">Nome:</label><br>
+                    <input type="text" placeholder="  Digite seu nome aqui" id="name"  class="input"/>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <label for="peso">Peso em Kg:</label><br>
+                    <input type="number" placeholder="  Digite seu peso aqui" id="peso" class="input"/>
+                </div>
+                <div>
+                    <br>
+                    <label for="altura">Altura:</label><br>
+                    <input type="number" placeholder="  Digite sua altura aqui" id="altura"  class="input"/>
+                </div>
+                <div><br>
+                    <button class="button" id="botao" onclick="pesoIdeal()">Conferir IMC</button>
+                </div>
+            </div>
+            <br>
+
+        </section>
+
+        <section class="div2">
+            <img class="img" src="./assets/mulhercorrendo.png" alt="Atletista correndo">
+            <p id="resultado">Descubra seu IMC!</p>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
